@@ -1,0 +1,34 @@
+﻿Installation de l'assembly 'C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe
+   logfile = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.InstallLog
+Installation du service ServiceCloture en cours...
+Création d'une source EventLog ServiceCloture dans le journal Application...
+Restauration de l'assembly 'C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe
+   logfile = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.InstallLog
+Restauration de l'état précédent du journal des événements pour la source ServiceCloture.
+Désinstallation de l'assembly 'C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe
+   logfile = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.InstallLog
+Suppression de la source EventLog ServiceCloture.
+Le service ServiceCloture est en cours de suppression du système...
+Le service ServiceCloture a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe
+   logfile = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.InstallLog
+Installation du service ServiceCloture en cours...
+Le service ServiceCloture a été installé avec succès.
+Création d'une source EventLog ServiceCloture dans le journal Application...
+Validation de l'assembly 'C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.exe
+   logfile = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Release\WindowsServiceCloture.InstallLog

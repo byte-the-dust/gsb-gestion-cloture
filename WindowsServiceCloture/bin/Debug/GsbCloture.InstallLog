@@ -1,0 +1,13 @@
+﻿Installation de l'assembly 'C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Debug\GsbCloture.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Debug\GsbCloture.exe
+   logfile = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Debug\GsbCloture.InstallLog
+Aucun programme d'installation public avec l'attribut RunInstallerAttribute.Yes n'a été trouvé dans l'assembly C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Debug\GsbCloture.exe.
+Validation de l'assembly 'C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Debug\GsbCloture.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   assemblypath = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Debug\GsbCloture.exe
+   logfile = C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Debug\GsbCloture.InstallLog
+Aucun programme d'installation public avec l'attribut RunInstallerAttribute.Yes n'a été trouvé dans l'assembly C:\Users\julie\source\repos\gsb_cloture\WindowsServiceCloture\bin\Debug\GsbCloture.exe.
+Suppression du fichier InstallState, car aucun programme d'installation n'est présent.
