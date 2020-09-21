@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GsbCloture</name>
+    </assembly>
+    <members>
+        <member name="M:GsbCloture.GestionDate.GetMoisPrecedent(System.DateTime)">
+            <summary>
+            Mois précédant la date passée en paramètre
+            </summary>
+            <param name="date"></param>
+            <returns>Mois au format "mm"</returns>
+        </member>
+        <member name="M:GsbCloture.GestionDate.GetMoisPrecedent">
+            <summary>
+            Mois précédant la date du jour
+            </summary>
+            <returns>Mois au format "mm"</returns>
+        </member>
+        <member name="M:GsbCloture.GestionDate.GetMoisSuivant(System.DateTime)">
+            <summary>
+            Mois suivant la date passée en paramètre
+            </summary>
+            <param name="date"></param>
+            <returns>Mois au format "mm"</returns>
+        </member>
+        <member name="M:GsbCloture.GestionDate.GetMoisSuivant">
+            <summary>
+            Mois suivant la date du jour
+            </summary>
+            <returns>Mois au format "mm"</returns>
+        </member>
+        <member name="M:GsbCloture.GestionDate.Entre(System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            Indique si le paramètre date est situé entre jourDebut et jourFin
+            </summary>
+            <param name="jourDebut">Compris dans l'intervalle [1;31]</param>
+            <param name="jourFin">Compris dans l'intervalle [1;31]</param>
+            <param name="date"></param>
+            <returns>Vrai si la date passée en paramètre est comprise dans l'intervalle</returns>
+        </member>
+        <member name="M:GsbCloture.GestionDate.Entre(System.Int32,System.Int32)">
+            <summary>
+            Indique si la date du jour se situe entre deux jours passés en paramètre
+            </summary>
+            <param name="jourDebut">Compris dans l'intervalle [1;31]</param>
+            <param name="jourFin">Compris dans l'intervalle [1;31]</param>
+            <returns>Vrai si la date du jour est comprise dans l'intervale</returns>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.fichefraisDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.comptableDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.etatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.fraisforfaitDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.lignefraisforfaitDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.lignefraishorsforfaitDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.visiteurDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.comptableRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.etatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.fichefraisRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.fraisforfaitRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.lignefraisforfaitRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.lignefraishorsforfaitRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.visiteurRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.comptableRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.etatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.fichefraisRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.fraisforfaitRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.lignefraisforfaitRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.lignefraishorsforfaitRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSet.visiteurRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.comptableTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.etatTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.fichefraisTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.fraisforfaitTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.lignefraisforfaitTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.lignefraishorsforfaitTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.visiteurTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:GsbCloture.gsbClotureDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GsbCloture.gsbClotureDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:GsbCloture.gsbClotureDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GsbCloture.gsbClotureDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:GsbCloture.gsbClotureDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GsbCloture.gsbClotureDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:GsbCloture.gsbClotureDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:GsbCloture.gsbClotureDataSetTableAdapters.TableAdapterManager.UpdateAll(GsbCloture.gsbClotureDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:GsbCloture.gsbClotureDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+    </members>
+</doc>
